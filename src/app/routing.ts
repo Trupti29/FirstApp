@@ -4,6 +4,7 @@ import { ProductComponent } from './product.componrent';
 import { FormComponent } from './form.component';
 import { AppComponent } from './app.component';
 import { AutocompleteOverviewExample } from './Component/Form';
+import { FormValidComponent } from './form-valid/form-valid.component';
 
 
 const Routes: Routes = [
@@ -11,6 +12,7 @@ const Routes: Routes = [
   { path: 'Product', component: ProductComponent }
   , { path: 'Form', component: FormComponent }
   , { path: 'AutoComp', component: AutocompleteOverviewExample  }
+  , { path: 'FormValid', component: FormValidComponent  }
   ]
 }
   
