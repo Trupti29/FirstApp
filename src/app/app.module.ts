@@ -13,7 +13,7 @@ import { UsersService } from './Service';
 import { RouterModule } from '@angular/router';
 import { FormComponent } from './form.component';
 import { PRouting } from "./routing";
-import { AutocompleteOverviewExample } from './Component/Form';
+
 import { FormValidComponent } from './form-valid/form-valid.component';
 
 @NgModule({
@@ -21,7 +21,7 @@ import { FormValidComponent } from './form-valid/form-valid.component';
     AppComponent,FileSelectDirective,
     ProductComponent
     ,FormComponent,
-    AutocompleteOverviewExample,
+    
     FormValidComponent
   ],
   imports: [
