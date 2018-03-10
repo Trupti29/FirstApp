@@ -1,0 +1,5 @@
+<li *ngFor="let user of list">
+     <!--| async as users; index as i; first as isFirst"> 
+    {{i}}/{{users.length}}. {{user}} -->
+    {{user.EmployeeName}}
+    <span *ngIf="isFirst">default</span> </li>
